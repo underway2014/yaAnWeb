@@ -1,0 +1,82 @@
+body{
+	background-color: rgb(230,230,230);
+}
+.excontent,.lbcontent{
+	width: 1012px;
+	font-size: 1em;
+	margin: 0 auto;
+}
+.lbheadcontent{
+	/*padding-left: 458px;*/
+	position: relative;
+	width: 100%;
+	height: 320px;
+	background-color: #fff;
+}
+.lbheadcontent > .sumcontain{
+	position: absolute;
+	left: 458px;
+	top: 0;
+	margin: 0 15px;
+}
+.lbheadcontent .sumcontain .sumtitle{
+	margin: 15px auto;
+	text-align: center;
+	font-size: 1.2em;
+}
+.lbheadcontent .sumcontain .sumdesc{
+	text-indent: 2em;
+	line-height: 1.3em;
+}
+/*.lbheadcontent .sumcontain > */
+
+.lbheadcontent .sumcontain .spots{
+	/*float: left;*/
+	margin: 0 auto;
+	margin-top: 15px;
+	/*overflow: hidden;*/
+
+}
+.clearfix:after{
+  content: "020"; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;  
+  }
+
+.clearfix {
+  /* 触发 hasLayout */ 
+  zoom: 1; 
+  }
+
+.lbheadcontent .sumcontain .spots > a{
+	margin: 8px 0 0 0;
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+}
+.searchmore{
+	display: block;
+	background-image: url(../images/experience/search_more.png);
+	width: 97px;
+	height: 25px;
+	margin-top: 20px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+
+}
+.lbcontent .tabs{
+	text-align: center;
+}
+.lbcontent .tabs > li{
+	/*float: left;*/
+	display: inline-block;
+	margin: 20px 25px;
+}
+
+
+
+
